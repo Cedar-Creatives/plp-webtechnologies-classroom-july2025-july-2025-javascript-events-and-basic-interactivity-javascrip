@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task Manager App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Task Manager App</h1>
+
+    <!-- Dark/Light Mode Toggle -->
+    <button id="theme-toggle">Toggle Dark/Light Mode</button>
+
+    <!-- Task Form -->
+    <form id="task-form">
+      <input type="text" id="task-name" placeholder="Enter task name">
+      <input type="text" id="task-desc" placeholder="Enter task description">
+      <button type="submit">Add Task</button>
+      <p class="error-message" id="form-error"></p>
+    </form>
+
+    <!-- Task List -->
+    <ul id="task-list"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
